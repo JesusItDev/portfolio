@@ -28,10 +28,10 @@ const Introduction = () => {
           </h1>
           <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-0">
             Computer Systems Engineer with a great interest in software
-            development. I'm capable of applying my knowledge in the
-            professional ambit, where i'm an avid learner. I'm looking for an
-            opportunity to further develop my technical abilities and soft
-            skills.
+            development. I&apos;m capable of applying my knowledge in the
+            professional ambit, where i&apos;m an avid learner. I&apos;m looking
+            for an opportunity to further develop my technical abilities and
+            soft skills.
           </p>
           <br />
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
