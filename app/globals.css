@@ -6,12 +6,27 @@ html,
 body {
   color: #fff;
   background: #1f1934;
+  height: 100dvh;
+}
+@media (max-height: 800px) {
+  html,
+  body {
+    height: 110%;
+  }
+}
+
+@media (max-height: 700px) {
+  html,
+  body {
+    height: 117%;
+  }
 }
 
 main {
   background: #393a47;
-  height: 100vh;
-  height: 100dvh;
+  height: inherit;
+  /* height: 100vh;
+  height: 100dvh; */
 }
 
 @layer utilities {

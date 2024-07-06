@@ -42,7 +42,7 @@ const Introduction = () => {
               View projects
             </Link>
             <Link
-              href="/contract"
+              href="/contact"
               className="text-md w-fit cursor-pointer rounded-xl border-2 border-secondary px-3 py-2 text-secondary transition-all hover:shadow-xl hover:shadow-secondary"
             >
               Contact me!
