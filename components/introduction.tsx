@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 const Introduction = () => {
   return (
     <div className="z-20 w-full bg-darkBg/60">
-      <div className="z-20 grid h-full items-center p-6 py-20 md:grid-cols-2 md:py-0">
+      <div className="z-20 flex h-full flex-col items-center p-6 pt-28 md:grid md:grid-cols-2 md:py-0">
         <Image
           src="/home-4.png"
           priority
@@ -36,13 +36,13 @@ const Introduction = () => {
           <br />
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
             <Link
-              href="/projects"
+              href="/portfolio"
               className="text-md w-fit cursor-pointer rounded-xl border-2 px-3 py-2 transition-all hover:shadow-xl hover:shadow-white/50"
             >
               View projects
             </Link>
             <Link
-              href="/contact"
+              href="/about-me"
               className="text-md w-fit cursor-pointer rounded-xl border-2 border-secondary px-3 py-2 text-secondary transition-all hover:shadow-xl hover:shadow-secondary"
             >
               Contact me!

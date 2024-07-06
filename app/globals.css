@@ -8,17 +8,24 @@ body {
   background: #1f1934;
   height: 100dvh;
 }
+@media (max-height: 950px) {
+  html,
+  body {
+    height: 102%;
+  }
+}
+
 @media (max-height: 800px) {
   html,
   body {
-    height: 110%;
+    height: 107%;
   }
 }
 
 @media (max-height: 700px) {
   html,
   body {
-    height: 117%;
+    height: 113%;
   }
 }
 
