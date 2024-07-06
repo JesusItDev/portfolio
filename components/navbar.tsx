@@ -10,6 +10,7 @@ const Navbar = () => {
   return (
     <MotionTransition
       position="right"
+      //className="fixed bottom-10 flex h-max w-full flex-col items-center justify-center"
       className="fixed bottom-10 z-40 mt-auto flex h-max w-full flex-col items-center justify-center"
     >
       <nav>

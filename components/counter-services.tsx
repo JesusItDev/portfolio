@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 const CounterServices = () => {
   return (
-    <div className="mx-auto my-8 grid max-w-3xl grid-cols-2 justify-between gap-3 md:grid-cols-4 md:gap-6">
+    <div className="mx-auto my-8 grid max-w-3xl grid-cols-3 justify-between gap-3 md:grid-cols-3 md:gap-6">
       {dataCounter.map(
         ({ id, endCounter, text, lineRight, lineRightMobile }) => (
           <div key={id} className={`${lineRight && "ltr"}`}>

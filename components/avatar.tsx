@@ -11,8 +11,8 @@ const Avatar = () => {
     >
       <Image
         src="/avatar-1.png"
-        width={200}
-        height={200}
+        width={800}
+        height={800}
         className="h-full w-full"
         alt="Avatar"
       ></Image>

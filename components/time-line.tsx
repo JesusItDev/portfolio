@@ -6,7 +6,7 @@ interface ITimeLineProps {}
 const TimeLine = () => {
   return (
     <div className="flex flex-col justify-center divide-y divide-slate-200">
-      <div className="mx-auto w-full max-w-3xl md:pb-40 md:pt-20">
+      <div className="mx-auto w-full max-w-3xl md:pb-40 md:pt-10">
         <div className="my-6">
           {dataAboutPage.map((data) => (
             <div key={data.id} className="group relative py-6 pl-8 sm:pl-32">
@@ -19,7 +19,9 @@ const TimeLine = () => {
                   {data.subtitle}
                 </p>
               </div>
-              <p className="max-w-md text-slate-400">{data.description}</p>
+              <p className="max-w-xl whitespace-pre-line text-slate-400">
+                {data.description}
+              </p>
             </div>
           ))}
         </div>

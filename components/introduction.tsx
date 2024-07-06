@@ -33,6 +33,7 @@ const Introduction = () => {
             opportunity to further develop my technical abilities and soft
             skills.
           </p>
+          <br />
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
             <Link
               href="/projects"
